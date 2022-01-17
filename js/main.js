@@ -9,6 +9,25 @@ var styles = `
 .avatar {
     overflow: hidden;
 }
+#hello {
+	animation: pulse 10s;
+}
+
+#hello:before {
+	content: "Hey 👋";
+	animation: spin 10s linear;
+}
+
+@keyframes spin {
+  0% { content:"Namasté"; }
+  40% { content:"السلام علیکم عزیز"; }
+  60% { content:"Hello Jee"; }
+  100% { content:"Sawubona"; }
+}
+
+.avatar {
+    cursor : alias;
+}
 `
 
 var styleSheet = document.createElement("style")

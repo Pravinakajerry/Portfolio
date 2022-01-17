@@ -66,8 +66,6 @@ b {
 .past-work:hover {
     color: black;
     background-color: #ccff44;
-    padding-top: 16px;
-    padding-bottom: 16px;
     padding-left: 8px;
 }
 
@@ -80,24 +78,24 @@ b {
 .footer {
     display: flex;
     column-gap: 24px;
-    font-size: 20px;
+    font-size: 1.5vw;
     align-items: center;
     justify-content: space-between;
 }
 
 .active {
-    padding-top: 16px;
+    padding-top: 24px;
     padding-right: 8px;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
     padding-left: 8px;
-    background-color: black;
-    color: #ccff44;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: #0a0a0a;
     border-bottom-color: #000000;
+    background-color: black;
+    color: #ccff44;
 }
 
 .last-updated {
@@ -164,7 +162,9 @@ section {
     .m-hide {
         display: none;
     }
+}
 
+@media (max-width:480px) {
     .past-work:hover {
         padding-top: 16px;
         padding-bottom: 16px;
