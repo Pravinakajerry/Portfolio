@@ -31,6 +31,7 @@ h1 {
 
 p {
     margin: 0px;
+    line-height: 120%;
 }
 
 .col {
@@ -42,7 +43,7 @@ h5 {
     margin: 0px;
 }
 
-.past-work {
+.work {
     font-size: 16px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -52,7 +53,7 @@ h5 {
     border-bottom-style: solid;
 }
 
-.is-second {
+.is-past {
     border-top-width: 0px;
     border-bottom-width: 1px;
     border-top-style: none;
@@ -63,7 +64,7 @@ b {
     font-weight: 500;
 }
 
-.past-work:hover {
+.work:hover {
     color: black;
     background-color: #ccff44;
     padding-left: 8px;
@@ -78,9 +79,9 @@ b {
 .footer {
     display: flex;
     column-gap: 24px;
-    font-size: 1.5vw;
     align-items: center;
     justify-content: space-between;
+    font-size: 16px;
 }
 
 .active {
@@ -132,6 +133,8 @@ section {
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    flex: 1;
 }
 
 .inactive {
@@ -140,6 +143,24 @@ section {
 
 .avatar:hover {
     box-shadow: 0 4px 50px 8px rgba(117, 117, 117, 0.16);
+}
+
+.box {
+    flex: 1;
+    position: relative;
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.is-inner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 @media (max-width: 480px) {
@@ -165,7 +186,7 @@ section {
 }
 
 @media (max-width:480px) {
-    .past-work:hover {
+    .work:hover {
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 0px;

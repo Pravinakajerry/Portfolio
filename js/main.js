@@ -1,6 +1,6 @@
 var styles = `
 
-.past-work {
+.work {
   transition-property: color, background-color, padding;
   transition-duration: 200ms, 200ms, 200ms;
   transition-timing-function: ease, ease, ease;
