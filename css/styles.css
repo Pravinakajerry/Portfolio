@@ -31,7 +31,7 @@ h1 {
 
 p {
     margin: 0px;
-    line-height: 120%;
+    line-height: 135%;
 }
 
 .col {
@@ -210,5 +210,9 @@ section {
         gap: 16px 16px;
         align-items: flex-start;
         justify-content: space-between;
+    }
+
+    p {
+        line-height: 145%;
     }
 }
