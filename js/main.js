@@ -6,6 +6,12 @@ var styles = `
   transition-timing-function: ease, ease, ease;
 }
 
+a {
+  transition-property: border-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
 .avatar {
     overflow: hidden;
 }

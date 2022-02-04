@@ -10,11 +10,6 @@ body {
     font-weight: 400;
 }
 
-a {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -161,6 +156,16 @@ section {
     border-top-width: 0px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
+}
+
+a:hover {
+    border-bottom-color: #000000;
+}
+
+a {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 480px) {
