@@ -26,9 +26,8 @@ a {
 
 @keyframes spin {
   0% { content:"Namasté"; }
-  40% { content:"السلام علیکم عزیز"; }
-  60% { content:"Hello Jee"; }
-  100% { content:"Sawubona"; }
+  50% { content:"السلام علیکم عزیز"; }
+  100% { content:"Hello Jee"; }
 }
 
 .avatar {
