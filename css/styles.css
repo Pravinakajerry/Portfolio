@@ -76,7 +76,7 @@ b {
     column-gap: 24px;
     align-items: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .active {
@@ -94,32 +94,6 @@ b {
     color: #ccff44;
 }
 
-.last-updated {
-    font-size: 14px;
-}
-
-.recommendation-wp {
-    display: flex;
-    flex-direction: row;
-    gap: 8px 8px;
-    flex-wrap: wrap;
-    margin-top: 18px;
-}
-
-.avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 100%;
-}
-
-.goals-wp {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 40px 80px;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -134,15 +108,6 @@ section {
 
 .inactive {
     opacity: 0.5;
-}
-
-.avatar:hover {
-    box-shadow: 0 4px 50px 8px rgba(117, 117, 117, 0.16);
-}
-
-.box {
-    flex: 1;
-    position: relative;
 }
 
 .text-24 {
@@ -187,37 +152,5 @@ a {
 
     .m-hide {
         display: none;
-    }
-}
-
-@media (max-width:480px) {
-    .work:hover {
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-left: 0px;
-    }
-
-    .active {
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
-
-    body {
-        row-gap: 40px;
-    }
-
-    .goals-wp {
-        flex-direction: column;
-    }
-
-    .footer {
-        flex-direction: column;
-        gap: 16px 16px;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    p {
-        line-height: 145%;
     }
 }
