@@ -1,0 +1,13 @@
+@import url('./css/?family=SuisseIntl:400');
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src:  url('SuisseIntl.woff2') format('woff2'),
+        url('SuisseIntl.woff') format('woff'),
+		url('SuisseIntl.eot') format('eot');
+}
+
+.custom-font{
+	font-family: 'SuisseIntl', sans-serif;
+	font-weight: 400;
+}
