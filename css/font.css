@@ -1,10 +1,11 @@
 @import url('./css/?family=SuisseIntl:400');
 
 @font-face {
-  font-family: 'SuisseIntl';
-  src:  url('SuisseIntl.woff2') format('woff2'),
-        url('SuisseIntl.woff') format('woff'),
-		url('SuisseIntl.eot') format('eot');
+  font-family: 'Suisseintl';
+  src: url('https://assets.website-files.com/6009499915a42b9442426cb3/60926d1b126f2b081ebbbdf8_SuisseIntl-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 .custom-font{
