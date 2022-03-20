@@ -15,6 +15,7 @@ a {
 .avatar {
     overflow: hidden;
 }
+
 #hello {
 	animation: pulse 10s;
 }
@@ -30,8 +31,17 @@ a {
   100% { content:"Hello Jee"; }
 }
 
-.avatar {
-    cursor : alias;
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 `
 
