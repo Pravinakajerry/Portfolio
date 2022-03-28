@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Inter:500,400|EB+Garamond:500,500');
+@import url('https://fonts.googleapis.com/css?family=Inter:500,400|EB+Garamond:500]');
+@font-face {
+    font-family: "Circular";
+    src: url("./css/circular.otf") format("opentype"),
+    }
+
+.font-circular {
+    font-family: Circular sans-serif;
+}
 
 body {
     font-family: 'Inter', sans-serif;
